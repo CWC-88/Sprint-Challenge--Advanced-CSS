@@ -13,6 +13,14 @@
     }
   
   }
+.bluesky{
+  width: 100%;
+}
+@media (max-width: 500px){
+   .bluesky{
+     height: 130px;
+   }
+}
 
   .space-images {
     display: flex;
@@ -26,6 +34,24 @@
       height: 100%;
     }
   }
+
+  @media (max-width: 500px){
+    .space-images .launch{
+        display:none;
+      }
+  }
+
+  @media (max-width: 500px){
+    .space-images .sky {
+        display:none;
+      }
+  }
+  @media (max-width: 500px){
+    .space-images .blast {
+        width: 100%;
+      }
+  }
+
 
   .visit-planets {
     padding: 15px;
@@ -42,9 +68,11 @@
   .walk {
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
-    padding: 50px 60px;
+    // padding: 50px 60px;
+    padding: 20px 20px;
     display: flex;
     justify-content: center;
+    width: 100%;
 
     .walk-text {
       width: 50%;
@@ -56,11 +84,22 @@
       p {
         margin-bottom: 26px;
       }
+    
+
 
       .btn {
-      }
-    }
+        padding: 1.2rem;
+        border-radius: .3rem;
+        background:@ebony-clay;
+        color:@wild-sand;
+        border: 1px solid @wild-sand;
+        width: 128px;
+        text-align: center;
+        font-size: 1.8rem;
 
+      }
+     
+    }
     .walk-img {
       width: 46%;
       margin-left: 4%;
@@ -70,6 +109,57 @@
         height: auto;
         border-radius: 10px;
       }
+    
     }
   }
-}// home
+
+
+  @media (max-width: 500px){
+    .walk{
+      .walk-text{
+        h3{ width: 300px;
+          padding-top: 20px;
+        }
+        p{
+          width: 470px;
+        }
+      }
+    }
+  }
+
+
+
+
+
+    @media (max-width: 500px){
+      .walk{
+flex-direction: column-reverse;
+flex-wrap: wrap;
+padding: 20px 20px;
+margin-top: 20px;
+    
+      .walk-img{
+        width: 100%;
+        margin-left: 0%;
+      
+      
+        
+        img{
+          
+          border-radius: 20px;
+      
+        }
+      }
+    }
+  }
+  @media (max-width: 500px){.walk{
+    .walk-text{
+      .btn{
+        width: 470px;
+      }
+    }
+  }
+}
+
+
+}
