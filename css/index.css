@@ -271,6 +271,11 @@ footer {
   width: 128px;
   text-align: center;
   font-size: 1.8rem;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: lightcyan;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
