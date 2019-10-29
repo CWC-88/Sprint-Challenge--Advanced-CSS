@@ -34,32 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-<!-- Responsive = Website conent will upscale or downscale to match ANY screen size.
+Responsive = Website conent will upscale or downscale to match ANY screen size.
 
 Adaptive = Different layouts for different devices which each contain a different screen size, ie layout 1 is desktop has screensize x
 layout 2 is tablet has screensize y
-layout 3 is mobile has screensize z -->
+layout 3 is mobile has screensize z
 
 2. Describe what it means to be mobile first vs desktop first.
 
-<!-- Mobile first - designed with mobile in mind 
-Desktop first - designed for desktop but adaptive to mobile -->
+Mobile first - designed with mobile in mind 
+Desktop first - designed for desktop but adaptive to mobile
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-62.5% makes default font 10x
+62.5% makes default font 10px
 
 4. How would you describe preprocessing to someone new to CSS?
 
-<!-- You can edit the different sections of your main CSS file through different css sub-files that are linked to your main file but off to the side and organized. This way you don't have to scroll around in your main file finding different sections that may need to be edited. However, be careful to not edit your main css file directly and then save the css subfiles (which dont have your edits) as it will delete your main css file edits. -->
+You can edit the different sections of your main CSS file through different css sub-files that are linked to your main file but off to the side and organized. This way you don't have to scroll around in your main file finding different sections that may need to be edited. However, be careful to not edit your main css file directly and then save the css subfiles (which dont have your edits) as it will delete your main css file edits.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-<!-- It was nice to have the files organized to the side, as having one main css file and just control fing to find things would be suboptimal. 
+ It was nice to have the files organized to the side, as having one main css file and just control fing to find things would be suboptimal. 
 
-I accidentally deleted some main css work by making edits directly into the main file and then saving the sub-files.  -->
+I accidentally deleted some main css work by making edits directly into the main file and then saving the sub-files. 
 
-<!-- The less files dont seem to activate natively in Sublime. But in VSC works fine.  -->
+The less files dont seem to activate natively in Sublime. But in VSC works fine. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
